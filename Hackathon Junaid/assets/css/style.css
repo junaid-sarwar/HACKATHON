@@ -1,0 +1,47 @@
+section{
+    margin: 0;
+    padding: 0;
+}
+
+/* NAVBAR SECTION */
+.search-btn{
+    border: none !important;
+    color: black;
+}
+
+.search-btn:hover{
+    text-decoration: underline;
+    border: none !important;
+    background-color: white;
+    color: black;
+}
+
+.explore-btn{
+    border: none !important;
+    color: black;
+    background-color: transparent;
+}
+
+.explore-btn:hover{
+    text-decoration: underline;
+    border: none !important;
+    background-color: transparent;
+    color: black;
+}
+
+/* BANNER SECTION */
+.cisco-banner {
+    background-image: url(../images/banners/cisco-banner-1024.avif);
+    overflow: hidden;
+}
+
+/* TRAINING SECTION */
+.training-section{
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.button{
+    border-radius: 2px !important;
+    background-color: transparent !important;
+}
